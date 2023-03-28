@@ -1,0 +1,123 @@
+a:Link, a:active, a:hover, a:focus, a:visited {
+  text-decoration: none;
+  color: black
+}
+
+.homepageContainer-wrapper {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    height: 30rem;
+    /* margin-left: 7rem; */
+    /* justify-items: center; */
+    /* gap: 0.5px; */
+    /* width: 90vw; */
+    /* align-self: center; */
+  }
+/* .welcome{
+  text-align: center;
+  color: white;
+  font-size: 2rem;
+} */
+
+  .card-heading{
+    color: #0A99B1;
+    text-align: center;
+    
+  }
+  /* .date{
+    color: white;
+    text-align: center;
+  } */
+
+.scrollHP {
+  height: 90%;
+}
+
+.appointments-container{
+  display: flex;
+  flex-direction: column;
+  background: white;
+  min-width: 15rem;
+  /* max-width: 30rem; */
+  width: 80%;
+  border: 1px solid black;
+  border-radius: 30px;
+  padding: 2.25rem;
+  margin: auto;
+  height: 100%;
+
+}
+
+.appointmentsCards {
+  background: white;
+  width: auto;
+  border: 1px solid black;
+  border-radius: 30px;
+  padding: .25rem;
+  margin: auto;
+}
+
+
+
+.trainees-container{
+  display: flex;
+  flex-direction: column;
+  background: white;
+  min-width: 15rem;
+  /* max-width: 30rem; */
+  width: 80%;
+  border: 1px solid black;
+  border-radius: 30px;
+  padding: 2.25rem;
+  margin: auto;
+  height: 100%;
+}
+
+.traineesCards {
+  background: white;
+  width: auto;
+  border: 1px solid black;
+  border-radius: 30px;
+  padding: .25rem;
+  margin: auto;
+}
+
+.action-container{
+  display: flex;
+  flex-direction: column;
+  background: white;
+  min-width: 15rem;
+  /* max-width: 30rem; */
+  width: 80%;
+  border: 1px solid black;
+  border-radius: 30px;
+  padding: 2.25rem;
+  margin: auto;
+  height: 100%; 
+}
+
+.links{
+  width: 40%;
+  /* height: 12rem; */
+  padding: 0.25rem;
+  background: white;
+  border: 1px;
+  border-radius: 30px;
+  margin-bottom: 1rem;
+}
+
+@media screen and (max-width: 1024px) {
+
+}
+
+@media screen and (max-width: 768px) {
+  .homepageContainer-wrapper {
+    flex-direction: column;
+    height: auto;
+  }
+
+  .col-lg-4 {
+    width: auto;
+  }
+}

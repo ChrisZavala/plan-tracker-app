@@ -1,0 +1,24 @@
+.formPlacement {
+    margin: 1rem
+    }
+
+.formCard {
+    border: solid;
+    border-color: white;
+    padding: 1rem;
+    border-radius: 1rem;
+}
+/* h1 {
+    line-height: 2rem;
+    color: white;
+    font-size: 1.5rem;
+} */
+.input-group {
+    margin: .5rem;
+}
+.buttonStyle {
+    background: #6CB4AC;
+    height: 2rem;
+    border-radius: .5rem;
+    width: auto;
+}

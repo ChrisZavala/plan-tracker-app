@@ -1,0 +1,54 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=M+PLUS+2:wght@300;400;500&display=swap");
+
+body {
+  margin: 0;
+  font-family: "M PLUS 2", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: var(--appColor) !important;
+  height: 100vh;
+}
+
+.logo {
+  width: 12rem;
+  height: 4rem;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: "Bebas Neue", sans-serif;
+  text-align: start;
+  /* color: white; */
+}
+
+p,
+ul,
+li {
+  text-align: start;
+}
+
+.textWhite {
+  color: white;
+}
+.card-title {
+  color: #0a99b1;
+  text-align: center;
+}
+/* code {
+  font-family:'Fredoka One' !important;
+} */
+
+@media screen and (max-width: 1024px) {
+  h3 {
+    font-size: 24px !important;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  aside {
+    height: 25rem;
+  }
+}

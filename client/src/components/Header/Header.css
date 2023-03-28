@@ -1,0 +1,106 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    margin: 1rem;
+}
+
+/* .logo {
+    width: 10rem;
+    height: 3rem;
+} */
+/* 
+.header-menu {
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+    color: white;
+}
+
+.header-menu>li:hover {
+    color: var(--orange);
+    cursor: pointer
+} */
+
+.navbar-toggler {
+    background-color: #fff;
+    border: 2px solid #fff;
+    border-radius: 5px;
+    font-size: 24px;
+    box-shadow: 0 6px 6px rgba(0, 0, 0, 0.6);
+    margin: 1rem;
+    color: #00000069;
+}
+
+.navbar-toggler:focus {
+    box-shadow: 0px 0px 6px 6px rgba(0, 0, 0, 0.6);
+}
+
+.navbar-toggler:hover {
+    cursor: pointer;
+    background-color: transparent;
+    border: 2px solid #fff;
+    box-shadow: 0 0 10px 0 #fff inset, 0 0 10px 4px #fff;
+    transition: all 150ms ease-in-out;
+  }
+
+.header-btn {
+    background-color: #0A99B1;
+    border: 2px solid #0A99B1;
+    color: white;
+    /* width: 109px; */
+    width: auto;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin: 1rem;
+    outline: none;
+    cursor: pointer;
+    text-transform: uppercase;
+    box-shadow: 0 6px 6px rgba(0, 0, 0, 0.6);
+    
+  }
+  .header-btn:hover {
+    cursor: pointer;
+    background-color: transparent;
+    color: white;
+    border: 2px solid #0A99B1;
+    box-shadow: 0 0 10px 0 #0A99B1 inset, 0 0 10px 4px #0A99B1;
+    transition: all 150ms ease-in-out;
+  }
+  
+  .onWhite:hover {
+    cursor: pointer;
+    background-color: transparent;
+    color: black;
+    border: 2px solid #0A99B1;
+    box-shadow: 0 0 10px 0 #0A99B1 inset, 0 0 10px 4px #0A99B1;
+    transition: all 150ms ease-in-out;
+  }
+
+  
+  .show-on-md {
+    display: none;
+}
+
+#logout {
+    background-color: rgb(210, 82, 82);
+    border: 2px solid rgb(210, 82, 82);
+}
+
+#logout:hover {
+    cursor: pointer;
+    background-color: transparent;
+    /* color: white; */
+    border: 2px solid rgb(210, 82, 82);
+    box-shadow: 0 0 10px 0 rgb(210, 82, 82) inset, 0 0 10px 4px rgb(210, 82, 82);
+}
+
+@media screen and (max-width: 767px) {
+    .hide-on-md {
+        display: none;
+    }
+    .show-on-md {
+        display: inline-block;
+    }
+}
